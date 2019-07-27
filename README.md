@@ -141,13 +141,10 @@ public class AudioSourceGetSpectrumDataExample : MonoBehaviour
 {
     public Transform[] cubes;
     public float scale;
-
     void Update()
     {
         float[] spectrum = new float[256];
-
         AudioListener.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);
-
         for (int i = 0; i < cubes.Length; i++)
         {
             var cube = cubes[i];
@@ -156,8 +153,8 @@ public class AudioSourceGetSpectrumDataExample : MonoBehaviour
             cube.localScale = localScale;
         }
     }
-}
- 
+}   
+
  実装にはkeijiroさんのunity-audio-spectrumを利用させていただいた。　
  ##### [keijiro/unity-audio-spectrum]( https://github.com/keijiro/unity-audio-spectrum)
 
