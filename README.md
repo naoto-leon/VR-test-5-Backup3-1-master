@@ -88,6 +88,6 @@ Pc開発時でのFpsが150オーバーにも関わらず実機で確認すると
  ということで、BPMを利用して実装を試みた。
  
  大体こんな感じ。
- ![VR1](https://user-images.githubusercontent.com/43961147/61994240-3bc65900-b0b3-11e9-8989-c0ab207807cd.jpg)
+<img width="431" alt="VR1" src="https://user-images.githubusercontent.com/43961147/61994258-83e57b80-b0b3-11e9-9c68-52176af468cc.png">
 実際の実装には上記のシステムを可視化さらに、再生している音楽のBeatを測定するUIのついたgeekdrumsさんのMusicEngineを利用しました。  
 ##### [geekdrums/MusicEngine](https://github.com/geekdrums/MusicEngine)
