@@ -14,3 +14,18 @@ VR Oculus-Go Beatsaver
 ##### が、しかし、ご存知の通りOculas-GoではBeat-Saverが出来ない。　　
 なんとも悔しい気持ちになったので作ってみました。
 結果や満足度に関しては最後にまとめてあります。
+
+***
+### 開発環境　
+
+#### Oculas-Go 
+□ 3Dof（回転のみ)  
+□ 60~72hz 
+
+#### MacBook Pro 
+□  グラフィック   
+　Radeon Pro 450 2 GB  
+　Intel HD Graphics 530 1536 MB  
+□  バージョン　10.14.5  
+
+#### MacBook Pro 
