@@ -103,3 +103,8 @@ Pc開発時でのFpsが150オーバーにも関わらず実機で確認すると
 
 基本的にはRaycastを使うがRaycastHitの情報で組み立てるとポイントが当たったら消すというセーバー感が全くなくなる為（第一段階ではTagを使用しての実装を試みた）
 
+  if (hitInfo.collider.tag == "TagName")
+        {  Destroy(hitInfo.collider.gameObject);}
+        
+        
+  こんな感じ
