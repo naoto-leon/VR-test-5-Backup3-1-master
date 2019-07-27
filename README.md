@@ -164,3 +164,4 @@ unityでは下記の一文でスペクトラムの取得が可能であり
  ##### [keijiro/unity-audio-spectrum]( https://github.com/keijiro/unity-audio-spectrum)
 
  ##### Particleの取得はジェネリック型ではない為GetComponent(typeof(ParticleSystem))で取得。      
+ ##### シェーダーに関してはGetComponent<MeshRenderer>();でマテリアルにアクセスし、SetFloatでシェーダーで設定した変数を取得。
