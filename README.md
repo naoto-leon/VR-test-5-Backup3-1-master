@@ -116,4 +116,4 @@ if (Vector3.Angle(pointer.position - previousPos, hitInfo.transform.up) > 130f) 
  }
  
  実際のコードでは130度以上で消すようにした。  
- また、荒い方法ではあるが下からの処理(下からの振り上げへの反応)は
+ また、荒い方法ではあるが下からの処理(下からの振り上げへの反応)はマイナスの処理で実装した。(角度及びhitinfoのベクトル)
