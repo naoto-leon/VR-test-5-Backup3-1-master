@@ -28,4 +28,13 @@ VR Oculus-Go Beatsaver
 　Intel HD Graphics 530 1536 MB  
 □  バージョン　10.14.5  
 
-#### MacBook Pro 
+#### Unity 
+□  バージョン　2019 1.8f1  
+□  レンダリング　LWRP  
+
+#### Andoroid SDK 
+□ Andoroid 9.0(pie) 
+
+#### JDK 
+□ java version "1.8.0_211"
+
