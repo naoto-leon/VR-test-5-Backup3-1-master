@@ -128,6 +128,10 @@ unityでは下記の一文でスペクトラムの取得が可能であり
  AudioListener.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);  
  これを下記のようなfor文で処理する事ができる。  
  for (int i = 1; i < spectrum.Length - 1; i++)  
+
+こんな感じ
+ ![Spectram](https://user-images.githubusercontent.com/43961147/61995838-61aa2880-b0c8-11e9-9cf0-0f76c6c9f892.gif)
+
  
  実装にはkeijiroさんのunity-audio-spectrumを利用させていただいた。　
  ##### [keijiro/unity-audio-spectrum]( https://github.com/keijiro/unity-audio-spectrum)
