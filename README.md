@@ -114,3 +114,6 @@ Pc開発時でのFpsが150オーバーにも関わらず実機で確認すると
 if (Vector3.Angle(pointer.position - previousPos, hitInfo.transform.up) > 130f) { 
  Destroy(hitInfo.transform.gameObject);
  }
+ 
+ 実際のコードでは130度以上で消すようにした。  
+ また、荒い方法ではあるが下からの処理(下からの振り上げへの反応)は
