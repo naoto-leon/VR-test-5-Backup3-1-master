@@ -122,4 +122,14 @@ if (Vector3.Angle(pointer.position - previousPos, hitInfo.transform.up) > 130f) 
  
  音とのマッチング性を高める為にゲームそのものにオーディオビジュアルの側面を持たせた。　　
  
- □
+####  □ スペクトラムに合わせてParticle、シェーダーを動かす。 
+
+unityでは下記の一文でスペクトラムの取得が可能であり  
+ AudioListener.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);  
+ これを下記のようなfor文で処理する事ができる。  
+ for (int i = 1; i < spectrum.Length - 1; i++)  
+ 
+ 実装にはkeijiroさんのunity-audio-spectrumを利用させていただいた。　
+ ##### [keijiro/unity-audio-spectrum]( https://github.com/keijiro/unity-audio-spectrum)
+
+        
