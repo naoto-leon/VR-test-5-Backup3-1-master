@@ -103,17 +103,17 @@ Pc開発時でのFpsが150オーバーにも関わらず実機で確認すると
 
 基本的にはRaycastを使うがRaycastHitの情報で組み立てるとポイントが当たったら消すというセーバー感が全くなくなる為（第一段階ではTagを使用しての実装を試みた）
 
-  if (hitInfo.collider.tag == "TagName")
-        {  Destroy(hitInfo.collider.gameObject);}
+      if (hitInfo.collider.tag == "TagName")
+          {  Destroy(hitInfo.collider.gameObject);}
         
         
   こんな感じ
 
 <img width="400" alt="VR2" src="https://user-images.githubusercontent.com/43961147/61995139-0de71180-b0bf-11e9-99f0-61f2abe626f0.png">
 
-if (Vector3.Angle(pointer.position - previousPos, hitInfo.transform.up) > 130f) { 
- Destroy(hitInfo.transform.gameObject);
- }
+    if (Vector3.Angle(pointer.position - previousPos, hitInfo.transform.up) > 130f) { 
+     Destroy(hitInfo.transform.gameObject);
+     }
  
  実際のコードでは130度以上で消すようにした。  
  また、荒い方法ではあるが下からの処理(下からの振り上げへの反応)はマイナスの処理で実装した。(角度及びhitinfoのベクトル)
@@ -125,9 +125,9 @@ if (Vector3.Angle(pointer.position - previousPos, hitInfo.transform.up) > 130f) 
 ####  □ スペクトラムに合わせてParticle、シェーダーを動かす。 
 
 unityでは下記の一文でスペクトラムの取得が可能であり  
- AudioListener.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);  
+    AudioListener.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);  
  これを下記のようなfor文で処理する事ができる。  
- for (int i = 1; i < spectrum.Length - 1; i++)  
+    for (int i = 1; i < spectrum.Length - 1; i++)  
 
 こんな感じ
  ![Spectram](https://user-images.githubusercontent.com/43961147/61995838-61aa2880-b0c8-11e9-9cf0-0f76c6c9f892.gif)
@@ -135,10 +135,11 @@ unityでは下記の一文でスペクトラムの取得が可能であり
 プロジェクトファイルに入れてないので一応記載しとく  
 適当なgameobjectにぶっこんでインスペクターからCubeいれれば動く  
 
-using UnityEngine;
-[RequireComponent(typeof(AudioSource))]
-public class AudioSourceGetSpectrumDataExample : MonoBehaviour
-{
+    
+    using UnityEngine;
+    [RequireComponent(typeof(AudioSource))]
+    ublic class AudioSourceGetSpectrumDataExample : MonoBehaviour
+    {
     public Transform[] cubes;
     public float scale;
     void Update()
@@ -151,9 +152,10 @@ public class AudioSourceGetSpectrumDataExample : MonoBehaviour
             var localScale = cube.localScale;
             localScale.y = spectrum[i] * scale;
             cube.localScale = localScale;
+           }
         }
-    }
-}   
+    }   
+    
 
  実装にはkeijiroさんのunity-audio-spectrumを利用させていただいた。　
  ##### [keijiro/unity-audio-spectrum]( https://github.com/keijiro/unity-audio-spectrum)
