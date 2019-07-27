@@ -23,9 +23,6 @@ VR Oculus-Go Beatsaver
 □ 60~72hz 
 
 #### MacBook Pro 
-□  グラフィック   
-　Radeon Pro 450 2 GB  
-　Intel HD Graphics 530 1536 MB  
 □  バージョン　10.14.5  
 
 #### Unity 
