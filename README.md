@@ -132,6 +132,31 @@ unityでは下記の一文でスペクトラムの取得が可能であり
 こんな感じ
  ![Spectram](https://user-images.githubusercontent.com/43961147/61995838-61aa2880-b0c8-11e9-9cf0-0f76c6c9f892.gif)
 
+プロジェクトファイルに入れてないので一応記載しとく  
+適当なgameobjectにぶっこんでインスペクターからCubeいれれば動く  
+
+using UnityEngine;
+[RequireComponent(typeof(AudioSource))]
+public class AudioSourceGetSpectrumDataExample : MonoBehaviour
+{
+    public Transform[] cubes;
+    public float scale;
+
+    void Update()
+    {
+        float[] spectrum = new float[256];
+
+        AudioListener.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);
+
+        for (int i = 0; i < cubes.Length; i++)
+        {
+            var cube = cubes[i];
+            var localScale = cube.localScale;
+            localScale.y = spectrum[i] * scale;
+            cube.localScale = localScale;
+        }
+    }
+}
  
  実装にはkeijiroさんのunity-audio-spectrumを利用させていただいた。　
  ##### [keijiro/unity-audio-spectrum]( https://github.com/keijiro/unity-audio-spectrum)
