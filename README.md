@@ -97,4 +97,9 @@ Pc開発時でのFpsが150オーバーにも関わらず実機で確認すると
 ##### [geekdrums/MusicEngine](https://github.com/geekdrums/MusicEngine)
 
 
-### 
+### VRとしての組み立て　
+
+導入の組み立て(アクティブなコントローラの取得まで)はググれば出てくる。  
+
+基本的にはRaycastを使うがRaycastHitの情報で組み立てるとポイントが当たったら消すというセーバー感が全くなくなる為（第一段階ではTagを使用しての実装を試みた）
+
