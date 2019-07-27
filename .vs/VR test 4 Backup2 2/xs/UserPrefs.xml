@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{1BBA5D95-A77C-89BF-EF52-5648A79FF33B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Ball.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SpectramSounded.cs" Line="59" Column="1" />
+      <File FileName="Assets/Scripts/Ball.cs" Line="46" Column="1" />
+      <File FileName="Assets/Scripts/boxLine.cs" Line="75" Column="17" />
+      <File FileName="Assets/Scripts/Tapu.cs" />
+      <File FileName="Assets/Scripts/Point_Laser_Start.cs" />
+      <File FileName="Assets/Scripts/WaveSpan.cs" />
+      <File FileName="Assets/Scripts/Point_Laser.cs" Line="117" Column="48" />
+      <File FileName="Assets/Scripts/Player.cs" />
+      <File FileName="Assets/Scripts/WayPoints.cs" />
+      <File FileName="Assets/Scripts/WayPointsSecond.cs" />
+      <File FileName="Assets/Scripts/Boxlow.cs" />
+      <File FileName="Assets/Scripts/Box.cs" />
+      <File FileName="Assets/Scripts/BoxSecond.cs" />
+      <File FileName="Assets/Scripts/Sound/AudioSpectrum.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VR test 4 Backup2 2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Sound" expanded="True" />
+                <Node name="Ball.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e7c3afc1-7173-4407-8e25-a2955c7d3a16" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

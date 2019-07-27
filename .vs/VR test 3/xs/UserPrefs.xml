@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{F1C2A179-70B6-24CE-8864-344AD52DE0AF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Point_Laser.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Point_Laser.cs" Line="93" Column="27" />
+      <File FileName="Assets/Scripts/Og_Player.cs" Line="15" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VR test 3" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Oculus" expanded="True">
+                <Node name="VR" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Point_Laser.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="666f35b1-6a8a-4f6a-b38e-8fdea52584a5" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
