@@ -89,3 +89,5 @@ Pc開発時でのFpsが150オーバーにも関わらず実機で確認すると
  
  大体こんな感じ。
  
+実際の実装には上記のシステムを可視化さらに、再生している音楽のBeatを測定するUIのついたgeekdrumsさんのMusicEngineを利用しました。  
+##### [geekdrums/MusicEngine](https://github.com/geekdrums/MusicEngine)
