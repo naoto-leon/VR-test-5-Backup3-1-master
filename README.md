@@ -108,3 +108,9 @@ Pc開発時でのFpsが150オーバーにも関わらず実機で確認すると
         
         
   こんな感じ
+
+<img width="400" alt="VR2" src="https://user-images.githubusercontent.com/43961147/61995139-0de71180-b0bf-11e9-99f0-61f2abe626f0.png">
+
+if (Vector3.Angle(pointer.position - previousPos, hitInfo.transform.up) > 130f) { 
+ Destroy(hitInfo.transform.gameObject);
+ }
